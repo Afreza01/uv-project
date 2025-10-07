@@ -596,18 +596,18 @@ body {
   position: relative;
 }
 
-.un1 {
-  width: 15%;
-  bottom: 16rem;
-  z-index: 1;
-}
+  .un1, .un2 {
+    width: 30%;
+    opacity: 0.5;
+  }
 
-.un2 {
-  width: 25%;
-  bottom: 15rem;
-  left: 14rem;
-  z-index: 1;
-}
+  .un1 {
+    left: -10px;
+  }
+
+  .un2 {
+    right: -10px;
+  }
 }
 
 @media (max-width: 392px){
