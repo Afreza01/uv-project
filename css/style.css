@@ -13,7 +13,9 @@ body {
   background-position: cover;
   background-color: #d9d9d9;
 }
-
+html, body {
+  overflow-x: hidden;
+}
 #about {
   position: relative;
   padding-top: 80px;
@@ -360,26 +362,26 @@ body {
 .unesco {
   width: 20%;
   max-width: 800;
-  position: relative;
+  position: absolute;
 }
 
 .un1 {
   width: 15%;
-  bottom: 21rem;
+  bottom: 13rem;
   z-index: 1;
 }
 
 .un2 {
   width: 25%;
-  bottom: 25rem;
-  left: 45.5rem;
+  bottom: 8rem;
+  left: 58rem;
   z-index: 1;
 }
 
 
 .services {
   position: relative;
-  bottom: 37rem;
+  bottom: 10rem;
 }
 
 /* --------------------------------------------------------------------------------------- */
@@ -587,13 +589,13 @@ body {
   }
 
     .services {
-   bottom: 20rem;
+   bottom: 10rem;
   }
 
   .unesco {
   width: 20%;
   max-width: 800;
-  position: relative;
+  position: absolute;
 }
 
 .un1 {
@@ -605,7 +607,7 @@ body {
 .un2 {
   width: 25%;
   bottom: 15rem;
-  left: 13rem;
+  left: 20rem;
   z-index: 1;
 }
 }
