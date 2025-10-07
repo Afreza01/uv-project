@@ -592,24 +592,19 @@ html, body {
    bottom: 10rem;
   }
 
-  .unesco {
-  width: 20%;
-  max-width: 800;
-  position: absolute;
-}
+  .un1, .un2 {
+    width: 30%;
+    opacity: 0.5;
+  }
 
-.un1 {
-  width: 15%;
-  bottom: 16rem;
-  z-index: 1;
-}
+  .un1 {
+    left: -10px;
+  }
 
-.un2 {
-  width: 25%;
-  bottom: 15rem;
-  left: 20rem;
-  z-index: 1;
-}
+  .un2 {
+    left: 17rem;
+    top: 30rem;
+  }
 }
 
 @media (max-width: 392px){
