@@ -605,11 +605,9 @@ body {
 .un2 {
   width: 25%;
   bottom: 15rem;
-  left: 10.5rem;
+  left: 14rem;
   z-index: 1;
 }
-
-
 }
 
 @media (max-width: 392px){
